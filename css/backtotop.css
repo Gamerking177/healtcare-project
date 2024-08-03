@@ -1,0 +1,19 @@
+#backToTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place it 20px from the bottom */
+    right: 20px; /* Place it 20px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    font-size: 24px; /* Increase font size */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text color */
+    cursor: pointer; /* Add cursor pointer */
+    padding: 10px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+}
+
+#backToTopBtn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
