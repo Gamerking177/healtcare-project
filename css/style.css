@@ -276,7 +276,7 @@ header p{
 .footer-bg {
     display: grid;
     grid-template-columns: 40% 1fr 30%; 
-    margin-top: 5%;
+    /* margin-top: 5%; */
     padding: 2% 0%;
     border-radius: 9;
 }
@@ -284,6 +284,7 @@ header p{
     margin-top: 2%;
 }
 .fot{
+    z-index: 5;
     padding: 0% 10%;
 }
 .two-foot >div >h4{
